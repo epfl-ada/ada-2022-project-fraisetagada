@@ -1,1 +1,3 @@
 data/*
+
+!data/invalid_urls.csv
