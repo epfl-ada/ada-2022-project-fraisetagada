@@ -1,3 +1,4 @@
 data/*
+processing/dask-worker-space/*
 
 !data/invalid_urls.csv
