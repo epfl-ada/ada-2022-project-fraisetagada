@@ -8,6 +8,22 @@ But this practice does not come without its downsides. Spectators paying for a p
 
 This project aims to explore the relationship between YouTubers and their sponsors, and to determine whether or not sponsorships are beneficial to content creators. We hope to provide YouTubers with more information about their potential sponsors, and help them make more informed decisions.
 
+## Research Questions
+
+For our analysis, we firstly analyse the context of sponsorships on YouTube:
+- What are the different **types of sponsorships** on YouTube?
+- What **brands** are sponsoring YouTubers?
+- What are the **most common sponsorships**?
+- How did these questions **evolve over time**?
+
+We then analyse the relationship between videos and their sponsors: 
+- What are the most **common sponsorships** for each **category** of YouTube videos?
+- Which types of videos are **more likely to be sponsored**?
+- Which types of videos are **targeted** by specific brands **over time**?
+
+Finally, we focus on the primary recipients of the sponsorships, namely the YouTubers. We try to answer the following final question:
+- Do sponsorships help content creators build a stronger community, or do they actually have some downsides?
+
 ## Datasets and Additional Datasets
 
 ### Datasets
@@ -39,26 +55,50 @@ Unfortunately, many links retrieved are not directly related to sponsorships. We
 
 Finally, to enrich our data, we **resolve shortened URLs**. This is done by using the Bitly API to resolve *bit.ly* URLs. Some other tools such as the [unshortenit](https://pypi.org/project/unshortenit/) Python library, or the Google URL Shortener API could also be used in the future.
 
-## Research Questions
+To further enhance our set of features, we could add the **ratio of likes to dislikes** to videos, or the **relative increase or decrease in the number of subscribers** for channels in a given time period.
 
-For our analysis, we firstly analyse the context of sponsorships on YouTube:
-- What are the different **types of sponsorships** on YouTube?
-- What **brands** are sponsoring YouTubers?
-- What are the **most common sponsorships**?
-- How did these questions **evolve over time**?
+## Methods
 
-We then analyse the relationship between videos and their sponsors: 
-- What are the most **common sponsorships** for each **category** of YouTube videos?
-- Which types of videos are **more likely to be sponsored**?
-- Which types of videos are **targeted** by specific brands **over time**?
+To estimate the effect of sponsorships on the relative popularity of a content creator, we will be using **pairing** using **propensity scores**. We will be using **t-tests** to compare features of a video with a sponsorships and a similar video without sponsorship. We could also use **regression** to estimate the effect of sponsorship on the popularity of a video, by using the number of views as a proxy for popularity.
 
-Finally, we focus on the primary recipients of the sponsorships, namely the YouTubers. We try to answer the following final question:
-- Do sponsorships help content creators build a stronger community, or do they actually have some downsides?
+To answer the question about the types of videos that are more likely to be sponsored, we will use a **classification** approach, such as a **decision tree** or a **random forest**. We will use the **information gain** as a metric to evaluate the quality of the split.
 
-### Methods
 
-TODO
+## Proposed Timeline
 
-To tackle the question of the effect of sponsorship on the relative popularity of a content creator (/channel) we'll be using pairing using propensity score and t-tests to compare for exemple a video with a sponsorships and a similar video without sponsorship, obviously if some metrics aren't really alligned we could propose some way to standardize or normalize them (for example, normalize the number of likes by the number of view of the video or by the number of subscribers of a channel depending on what we the metric for).
+| Week | Tasks |
+|------|------|
+| Nov 21 | |
+| Nov 28 | |
+| Dec 5  | |
+| Dec 12 | |
+| Dec 19 | |
+
+## Organization within the team
+
+| Week | Name | Tasks |
+|------|------|-------|
+| Nov 21 | Arnaud  | |
+|        | Ozan    | |
+|        | Yassine | |
+|        | Antoine | |
+| Nov 28 | Arnaud  | |
+|        | Ozan    | |
+|        | Yassine | |
+|        | Antoine | |
+| Dec 5  | Arnaud  | |
+|        | Ozan    | |
+|        | Yassine | |
+|        | Antoine | |
+| Dec 12 | Arnaud  | |
+|        | Ozan    | |
+|        | Yassine | |
+|        | Antoine | |
+| Dec 19 | Arnaud  | |
+|        | Ozan    | |
+|        | Yassine | |
+|        | Antoine | |
+
+### Questions for TAs (optional)
 
                                                       
