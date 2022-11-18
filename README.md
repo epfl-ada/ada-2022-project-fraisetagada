@@ -101,6 +101,10 @@ Using **linear regression** we'll see if we can manage to get some insight on th
 |        | Yassine | |
 |        | Antoine | |
 
+### Note concerning the github organozation
+
+We organized our work in a way that all the analysis can be find together in a single notebook called **Final_Analysis** but if one want to take a closer look at a specific type of analysis, they can find the seprated notebook where the analysis took place in the folder **Analysis**.
+
 ### Questions for TAs (optional)
 - Any comments or advices will be greatly appreciated! :)
                                                
