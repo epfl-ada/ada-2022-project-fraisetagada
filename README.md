@@ -50,12 +50,15 @@ To work with such a large dataset, we use a combination of [pandas](https://pand
 For the **first two parts** of this project, we mainly depend on the **video metadata** which helps us understand the context of sponsorships since the very beginning of YouTube. For the **last question**, we use the **time series dataset** provided to us, since it has more relevent information about the YouTubers and their channels. By focusing on data from $2015$ to $2019$, we have a more recent view of the YouTube ecosystem, which is more relevant to our research.
 
 When a video is sponsored, content creators usually mention it in the video description alongside with a link. We use this information to detect sponsorships by using **regular expressions** to find URLs.
+We prealably establish a csv file **invalid_urls.csv** containing the recurrent URLs that Youtubers put on their descriptions like Youtube link, Twitter link, etc, so we filter them out to not consider them as potential sponsor urls. However, the list isn't exhaustive and it could remain urls that aren't sponsor. Ton encounter that, we will look to a list on internet containing the sponsor that are the most use between 2005 and 2019.
 
 Unfortunately, many links retrieved are not directly related to sponsorships. We **filter out URLs that match with a list of unrelevent links** such as the creator's social media accounts, other videos, etc. This list is not exhaustive, but it is a good starting point.
 
 Finally, to enrich our data, we **resolve shortened URLs**. This is done by using the Bitly API to resolve *bit.ly* URLs. Some other tools such as the [unshortenit](https://pypi.org/project/unshortenit/) Python library, or the Google URL Shortener API could also be used in the future.
 
 To further enhance our set of features, we could add the **ratio of likes to dislikes** to videos, or the **relative increase or decrease in the number of subscribers** for channels in a given time period.
+
+
 
 ## Methods
 
@@ -69,37 +72,32 @@ Using **linear regression** we'll see if we can manage to get some insight on th
 
 | Week | Tasks |
 |------|------|
-| Nov 21 | |
-| Nov 28 | |
-| Dec 5  | |
-| Dec 12 | |
-| Dec 19 | |
-| Dec 23 | Finishing the entirety of the project |
+| Nov 21 | Continue preprocessing of Bitly links and find a way to restraint our investigation of sponsor video by selecting videos containing URLs that are frequently present. |
+| Nov 28 | Extract the brands that sponsored video and categorise them |
+| Dec 5  | Find the most common sponsorships for each categories of YouTube videos|
+| Dec 12 | Make a timeseries analysis of the evolution of sponsorships|
+| Dec 19 | Analyse the impact of sponsorships on videos content creators and their community and look if it conducts to build a stronger relation between them or it could have some downsides |
+| Dec 23 | Make the website |
 
 ## Organization within the team
 
 | Week | Name | Tasks |
 |------|------|-------|
-| Nov 21 | Arnaud  | |
-|        | Ozan    | |
-|        | Yassine | |
-|        | Antoine | |
-| Nov 28 | Arnaud  | |
-|        | Ozan    | |
-|        | Yassine | |
-|        | Antoine | |
-| Dec 5  | Arnaud  | |
-|        | Ozan    | |
-|        | Yassine | |
-|        | Antoine | |
-| Dec 12 | Arnaud  | |
-|        | Ozan    | |
-|        | Yassine | |
-|        | Antoine | |
-| Dec 19 | Arnaud  | |
-|        | Ozan    | |
-|        | Yassine | |
-|        | Antoine | |
+| Nov 21 | Arnaud  | Finish the bitly conversion to website links|
+|        | Ozan    | Generate a list of potential sponsor URLs|
+|        | Yassine | Generate a graph of videos urls|
+|        | Antoine | Bring meaningful visualisation about potential sponsors URLs |
+| Nov 28 | All  | Categorization of the most frequent sponsored|      
+| Dec 5  | Arnaud  | Find which kind of videos are most likely to be sponsored|
+|        | Ozan    | Find what are the most common sponsorships among each video categories|
+|        | Yassine | Look at what type of sponsors are used on each categories|
+|        | Antoine | Visualise the most common sponsorships|
+| Dec 12 | Arnaud  | Apply machine learning method whether a video could be sponsored and whether it has a positive or negative impact |
+|        | Ozan    | Apply machine learning method whether a video could be sponsored and whether it has a positive or negative impact |
+|        | Yassine | Establish propensity score and make t-test|
+|        | Antoine | Establish a final conclusion|
+| Dec 19 | All | Bring all the results together in a beautiful website|
+     
 
 ### Note concerning the github organozation
 
