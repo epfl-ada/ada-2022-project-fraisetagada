@@ -43,7 +43,7 @@ If needed, we might also use the [YouTube API](https://developers.google.com/you
 
 ### Libraries and Tools
 
-To work with such a large dataset, we use a combination of [pandas](https://pandas.pydata.org/docs/) for its ease of use and [pyspark](https://spark.apache.org/docs/latest/api/python/) to handle the big workload when doing computation on the entire dataset. Visualization is done with [matplotlib](https://matplotlib.org/3.3.3/contents.html) and [seaborn](https://seaborn.pydata.org/).
+To work with such a large dataset, we use a combination of [pandas](https://pandas.pydata.org/docs/) for its ease of use and [pyspark](https://spark.apache.org/docs/latest/api/python/) to handle the big workload when doing heavy computation on the entire dataset. Visualization is done with [matplotlib](https://matplotlib.org/3.3.3/contents.html) and [seaborn](https://seaborn.pydata.org/). Most of the statistical analysis will be done either with [statsmodel](https://www.statsmodels.org/stable/index.html) or by using the [classification and regression add-on of spark](https://spark.apache.org/docs/latest/ml-classification-regression.html#linear-regression).
 
 ### Data Preprocessing
 
@@ -63,6 +63,7 @@ To estimate the effect of sponsorships on the relative popularity of a content c
 
 To answer the question about the types of videos that are more likely to be sponsored, we will use a **classification** approach, such as a **decision tree** or a **random forest**. We will use the **information gain** as a metric to evaluate the quality of the split.
 
+Using **linear regression** we'll see if we can manage to get some insight on the effect of sponsorships on the popularity of a given video/ a given channel by using metrics such a **like per view** or even **dislike per view**.
 
 ## Proposed Timeline
 
@@ -73,6 +74,7 @@ To answer the question about the types of videos that are more likely to be spon
 | Dec 5  | |
 | Dec 12 | |
 | Dec 19 | |
+| Dec 23 | Finishing the entirety of the project |
 
 ## Organization within the team
 
@@ -100,5 +102,5 @@ To answer the question about the types of videos that are more likely to be spon
 |        | Antoine | |
 
 ### Questions for TAs (optional)
-
-                                                      
+- Any comments or advices will be greatly appreciated! :)
+                                               
