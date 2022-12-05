@@ -2,3 +2,4 @@ data/*
 processing/dask-worker-space/*
 
 !data/invalid_urls.csv
+!data/sponsor_vocabulary.csv
