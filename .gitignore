@@ -3,4 +3,4 @@ processing/dask-worker-space/*
 
 !data/invalid_urls.csv
 !data/sponsor_vocabulary.csv
-!data/generated/domains_classification.csv
+!data/domains_classification.csv
