@@ -1,3 +1,4 @@
+domain,count,median_sponsor_score,is_sponsored,domain_category
 plus.google.com,3786647,3.0,0,Social Media
 play.google.com,2093786,4.0,1,Application
 itunes.apple.com,1724603,3.0,0,Music
@@ -124,7 +125,7 @@ freedom.tm,65228,5.0,1,Agency
 design.daddygif.com,64941,1.0,0,Real Estate
 eonli.ne,64904,2.0,0,Media
 click.linksynergy.com,64816,10.0,1,Agency
-myspace.com,64663,2.0,0,Social Network
+myspace.com,64663,2.0,0,Social Media
 gplus.to,64291,3.0,0,Media
 trt.world,63600,0.0,0,Media
 weibo.com,63357,2.0,0,Media
@@ -133,7 +134,7 @@ chat.whatsapp.com,62715,3.0,0,Social Media
 tv9telugu.com,62701,3.0,0,Media
 deezer.com,62472,2.0,0,Music
 cbs.com,61479,15.0,0,Media
-nba.com,61011,3.0,0,Sports
+nba.com,61011,3.0,0,Sport
 oprah.com,60394,3.0,0,Entertainment
 sigma-beauty.7eer.net,60025,19.0,1,Beauty
 vid.io,60003,5.0,1,Agency
@@ -158,16 +159,16 @@ unsplash.com,54438,3.0,0,Photo
 wsj.com,53678,3.0,0,Media
 win.gs,53566,1.0,0,Sport
 indiatvnews.com,53553,4.0,0,Media
-mlb.mlb.com,53374,6.0,0,Sports
+mlb.mlb.com,53374,6.0,0,Sport
 bitchute.com,53357,3.0,0,Streaming
 gamerfuzion.com,53002,0.0,0,Video Game
 gaana.com,52986,3.0,0,Music
 djshop.de,52523,8.0,0,Music
 djtunes.com,52395,8.0,0,Music
-jaimaharashtranews.tv,52024,2.0,0,News
-mtv.com.lb,51892,0.0,0,News
+jaimaharashtranews.tv,52024,2.0,0,Media
+mtv.com.lb,51892,0.0,0,Media
 osu.ppy.sh,51343,2.0,0,Video Game
-britishpathe.com,51266,2.0,0,News
+britishpathe.com,51266,2.0,0,Media
 bravo.ly,51095,5.0,0,Streaming
 redirect.viglink.com,51093,8.0,0,Shorten
 news24online.com,50973,2.0,0,Media
@@ -252,35 +253,35 @@ ncbi.nlm.nih.gov,34929,6.0,0,Science
 sites.google.com,34775,2.0,0,Sharing Service
 thizzler.com,34707,4.0,1,Music
 wp.me,34312,5.0,1,Application
-imdb.com,34103,3.0,0,Movies
+imdb.com,34103,3.0,0,Movie
 mbsy.co,34013,15.0,1,Agency
 plays.tv,33859,5.0,0,Application
 bhphotovideo.com,33777,6.0,1,Shop
 rover.ebay.com,33761,7.0,1,Shop
 saavn.com,33714,3.0,1,Music
 pcdeal.tv,33702,14.0,1,Shop
-asianetnews.com,33673,0.0,0,News
+asianetnews.com,33673,0.0,0,Media
 evancarmichael.com,33531,19.0,1,YCW
 ustream.tv,33469,1.0,0,Technology
-kbsworld.co.kr,33281,2.0,0,News
+kbsworld.co.kr,33281,2.0,0,Media
 kickstarter.com,33146,3.0,0,Donation
 blogtalkradio.com,33090,2.0,0,Radio
 myanimelist.net,33065,3.0,1,Social Media
 euw.op.gg,33038,4.0,0,Application
-tytnetwork.com,33025,9.0,0,News
-cbc.ca,33025,3.0,0,News
+tytnetwork.com,33025,9.0,0,Media
+cbc.ca,33025,3.0,0,Media
 doubtnut.app.link,32940,10.0,1,Application
 pbs.org,32717,1.0,0,Media
 vevo.ly,32713,1.0,0,Music
-newsone.tv,32179,0.0,0,News
-cnbc.com,32175,3.0,0,News
+newsone.tv,32179,0.0,0,Media
+cnbc.com,32175,3.0,0,Media
 vid.me,32134,3.0,0,OVP
 davidpakman.com,32119,3.0,0,Media
 londonreal.tv,31784,4.0,0,Media
 audiojungle.net,31780,7.0,0,Music
 support.google.com,31706,7.0,0,Technology
 zps.to,31698,1.0,0,Shop
-indiatoday.intoday.in,31682,10.0,0,News
+indiatoday.intoday.in,31682,10.0,0,Media
 cash.me,31573,6.0,0,Donation
 wiwibloggs.com,31508,2.0,0,YCW
 99l.tv,31461,6.0,0,Music
@@ -291,8 +292,8 @@ gab.ai,31031,2.0,1,Social Media
 trainingpeaks.com,30999,10.0,1,Sport
 na.op.gg,30890,4.0,0,Application
 sharemods.com,30842,5.0,0,Video Game
-bbc.in,30841,5.0,0,News
-bhaarattoday.com,30830,7.0,0,News
+bbc.in,30841,5.0,0,Media
+bhaarattoday.com,30830,7.0,0,Media
 202.87.41.148,30829,3.0,0,Media
 msb.im,30705,19.0,1,Service
 thekingofhate.com,30682,12.0,0,Forum
@@ -300,19 +301,19 @@ myapp.wips.com,30600,2.0,1,Application
 chriszabriskie.com,30590,5.0,0,Music
 hautelook.com,30519,17.0,1,Fashion
 lnk.to,30499,2.0,0,Music
-standardmedia.co.ke,30486,2.0,0,News
-std.co.ke,30396,2.0,0,News
+standardmedia.co.ke,30486,2.0,0,Media
+std.co.ke,30396,2.0,0,Media
 chrono.gg,30357,7.0,1,Application
 streamtip.com,30286,3.0,0,Streaming
-aljazeera.com,30166,1.0,0,News
+aljazeera.com,30166,1.0,0,Media
 liveleak.com,30116,1.0,0,OVP
 di.sn,30077,2.0,0,
-nbc.com,30018,2.0,0,News
+nbc.com,30018,2.0,0,Media
 ipsy.com,29935,13.0,1,Beauty
 stockfootage.com,29876,7.0,0,Service
 cafepress.com,29807,3.0,1,Shop
 ocremix.org,29788,7.0,0,Music
-newsx.com,29695,1.0,0,News
+newsx.com,29695,1.0,0,Media
 commons.wikimedia.org,29626,3.0,0,Education
 arcadepunk.co.uk,29550,12.0,0,Video Game
 y2u.be,29510,5.0,0,Shorten
@@ -342,40 +343,40 @@ gtasnp.com,26749,21.0,0,Video Game
 machinerytrader.com,26686,1.0,0,Vehicle
 monster.cat,26658,3.0,1,Music
 octoly.com,26641,18.0,1,Agency
-wionews.com,26612,2.0,0,News
+wionews.com,26612,2.0,0,Media
 glidebros.com,26495,1.0,0,Music
 de.aliexpress.com,26426,9.0,1,Shop
 share.cbn.com,26257,3.0,0,Religion
 freesound.org,26225,3.0,0,Music
 sephora.com,26099,8.0,1,Beauty
-theguardian.com,26067,2.0,0,News
-on.wsj.com,25975,3.0,0,News
+theguardian.com,26067,2.0,0,Media
+on.wsj.com,25975,3.0,0,Media
 cdkeys.com,25719,9.0,1,Technology
-inewslive.net,25673,0.0,0,News
+inewslive.net,25673,0.0,0,Media
 play-asia.com,25565,7.0,1,Technology
 rumble.com,25535,1.0,0,OVP
-go.nowth.is,25346,4.0,0,News
+go.nowth.is,25346,4.0,0,Media
 play.spotify.com,25344,1.0,0,Music
 strava.com,25290,3.0,1,Application
-democracynow.org,25273,6.0,0,News
+democracynow.org,25273,6.0,0,Media
 airbnb.com,25241,13.0,1,Travel
 t.maxpreps.com,25225,7.0,0,Sport
-abpmajha.abplive.in,25169,4.0,0,News
+abpmajha.abplive.in,25169,4.0,0,Media
 m.onelink.me,25157,5.0,0,
 getfpv.com,25092,8.0,1,Technology
 cstoysjapan.com,25051,17.0,1,Shop
 britishpathe.tv,25018,2.0,0,Streaming
 sabc.co.za,24968,0.0,0,Radio
-themangonews.com,24900,1.0,0,News
+themangonews.com,24900,1.0,0,Media
 mega.nz,24725,3.0,0,Sharing Service
 bigbadtoystore.com,24715,3.0,0,Video Game
-V6news.tv,24644,1.0,0,News
+V6news.tv,24644,1.0,0,Media
 onlinedatinglogic.com,24625,0.0,0,Dating
 onlinedatingsitesandservices.com,24625,0.0,0,Dating
-sofarsounds.com,24620,2.0,0,Muisc
+sofarsounds.com,24620,2.0,0,Music
 gum.co,24528,8.0,1,Technology
 moddb.com,24484,3.0,0,Video Game
-presstv.com,24450,0.0,0,News
+presstv.com,24450,0.0,0,Media
 store.roosterteeth.com,24399,3.0,0,Shop
 freemusicarchive.org,24165,4.0,0,Music
 xbox.com,24126,5.0,1,Video Game
@@ -384,13 +385,13 @@ purplle.com,24021,6.0,1,Beauty
 nutritionfacts.org,23928,9.0,0,Education
 audioboom.com,23862,2.0,1,Agency
 poshmark.com,23797,12.0,1,Shop
-talkshowscentral.com,23783,0.0,0,News
+talkshowscentral.com,23783,0.0,0,Media
 roosterteeth.com,23748,3.0,0,Shop
 ibotta.com,23698,15.0,1,Application
 gatewayclassiccars.com,23650,8.0,0,Vehicle
 ironsidecomputers.com,23616,8.0,1,Technology
-aninews.in,23598,1.0,0,News
-apnlive.com,23564,0.0,0,News
+aninews.in,23598,1.0,0,Media
+apnlive.com,23564,0.0,0,Media
 StockFootage.com,23543,2.0,0,Service
 subscribestar.com,23521,1.0,1,Agency
 truckpaper.com,23495,1.0,0,Vehicle
@@ -400,7 +401,7 @@ ebay.co.uk,23225,7.0,0,Shop
 emvn.co,23216,6.0,0,Music
 tigerfitness.com,23204,8.0,1,Sport
 theartistunion.com,23202,3.0,0,
-24NewsHD.tv,23164,0.0,0,News
+24NewsHD.tv,23164,0.0,0,Media
 spreaker.com,23094,2.0,1,Agency
 marinemax.com,23063,4.0,0,Vehicle
 hitbox.tv,22961,2.0,0,Streaming
@@ -410,16 +411,16 @@ bloglovin.com,22935,7.0,0,Social Media
 untvweb.com,22934,2.0,0,Media
 ulta.com,22904,9.0,1,Beauty
 truefire.com,22773,5.0,0,Education
-ddnews.gov.in,22769,0.0,0,News
+ddnews.gov.in,22769,0.0,0,Media
 bbtv.go2cloud.org,22768,2.0,0,
 usagym.org,22752,0.0,0,Sport
-abnandhrajyothy.com,22689,0.0,0,News
+abnandhrajyothy.com,22689,0.0,0,Media
 simonsaysstamp.com,22681,4.0,0,Shop
 logo.to,22664,1.0,0,YCW
 forums.terraria.org,22578,3.0,0,Forum
 binance.com,22577,7.0,1,Crypto
-abpsanjha.abplive.in,22564,2.0,0,News
-zoomtv.com,22557,3.0,0,News
+abpsanjha.abplive.in,22564,2.0,0,Media
+zoomtv.com,22557,3.0,0,Media
 newgrounds.com,22556,2.0,0,Social Media
 player.me,22550,6.0,1,Video Game
 mtdcnc.com,22434,19.0,1,Technology
@@ -427,18 +428,18 @@ eatreadlove.me,22430,13.0,1,Fashion
 urlzs.com,22313,4.0,0,Shorten
 bbstv.ug,22251,0.0,0,Media
 lastmomenttuitions.com,22210,2.0,0,Education
-thehansindia.com,22187,0.0,0,News
+thehansindia.com,22187,0.0,0,Media
 stores.ebay.com,22175,3.0,0,Shop
 linkshrink.net,22147,2.0,1,Shorten
-hmtvlive.com,22125,0.0,0,News
+hmtvlive.com,22125,0.0,0,Media
 share.epidemicsound.com,22117,8.0,0,Music
 bbcom.me,22116,6.0,1,Sport
-wmur.com,22109,1.0,0,News
+wmur.com,22109,1.0,0,Media
 hatfil.ms,22085,8.0,0,
 dotabuff.com,22003,4.0,0,Video Game
 eduonix.com,21925,10.0,1,Education
 pixabay.com,21917,4.0,0,Photo
-techieraj.com,21877,7.0,0,Blog
+techieraj.com,21877,7.0,0,Service
 go.magik.ly:443,21820,11.0,1,Agency
 toneden.io,21791,3.0,1,Agency
 stv.tv,21749,2.0,0,Streaming
@@ -454,11 +455,11 @@ avenues.tv,21335,0.0,0,Media
 epaper.v6velugu.com,21334,1.0,0,Media
 ravelry.com,21048,5.0,0,Social Media
 gog.com,21005,4.0,0,Video Game
-boardgamegeek.com,20909,2.0,0,Entertainement
+boardgamegeek.com,20909,2.0,0,Entertainment
 kairalitv.in,20710,0.0,0,Media
 thaboxingvoice.com,20668,2.0,0,Media
 twit.tv,20649,8.0,0,Technology
-clevver.com,20648,4.0,0,Entertainement
+clevver.com,20648,4.0,0,Entertainment
 cohh.tv,20616,2.0,0,YCW
 intotheam.com,20616,8.0,1,Fashion
 automototube.net,20585,8.0,0,Vehicle
@@ -528,7 +529,7 @@ v6velugu.com,17843,1,0,Media
 artofdota2.com,17802,5,0,YCW
 cgtn.com,17783,2,0,Media
 bigfishgames.com,17774,4,1,Video Game
-yellowpages.com,17755,1,0,Social media
+yellowpages.com,17755,1,0,Social Media
 ocw.mit.edu,17740,0,0,Education
 linktr.ee,17717,4,0,Service
 angeldigital.co.in,17666,6,0,Media
@@ -606,7 +607,7 @@ deejay.de,15830,2,0,Music
 us.shein.com,15822,9,1,Fashion
 ctt.ec,15799,9,0,Agency
 somoynews.tv,15783,5,0,Media
-copyright.gov,15732,9,0,Gouvernment
+copyright.gov,15732,9,0,Government
 gg.gg,15707,5,0,Shorten
 gamebanana.com,15689,2,0,Video Game
 pastemagazine.com,15682,0,0,Media
@@ -619,7 +620,7 @@ abcnews.go.com,15553,0,0,Media
 pcpartpicker.com,15507,5,0,Technology
 8wayrun.com,15504,1,0,Video Game
 ford.to,15495,8,0,Vehicle
-vgfaq.com,15493,3,0,Tmedia
+vgfaq.com,15493,3,0,Media
 netflix.com,15468,3,0,Streaming
 eventbrite.com,15449,5,0,Media
 alpha.wallhaven.cc,15448,3,0,Sharing Service
@@ -794,7 +795,7 @@ us.battle.net,12561,4.0,1,Video Game
 theotrade.com,12547,19.0,1,Education
 mailchi.mp,12542,9.0,1,Application
 gamezplay.org,12539,2.0,0,Video Game
-expressoshow.com,12528,0.0,0,Food
+expressoshow.com,12528,0.0,0,Food Drink
 join.quizgroup.com,12527,0.0,0,Agency
 flipboard.com,12495,3.0,0,Entertainment
 sports.abs-cbn.com,12489,0.0,0,Sport
