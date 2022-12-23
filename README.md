@@ -2,7 +2,7 @@
 
 ## Website
 
-https://go.epfl.ch/ada-yt-sponsorship-project
+The data story website can be accessed through this link: [https://go.epfl.ch/ada-yt-sponsorship-project](https://go.epfl.ch/ada-yt-sponsorship-project).
 
 ## Abstract 
 
@@ -80,4 +80,9 @@ Using **linear regression** we will see if we can manage to get some insights on
 
 ### Note concerning the repository organization
 
-The final analysis and notebook for the milestone 3 can be found in [project.ipynb](./project.ipynb). The notebook that contains all the analysis of milestone 2 can be found in [milestone2.ipynb](./milestone2.ipynb).
+The final analysis and notebook for the milestone 3 can be found in [project.ipynb](./project.ipynb). The notebook that contains all the analysis of milestone 2 can be found in [milestone2.ipynb](./milestone2.ipynb). This project also contains the following folders:
+* [analysis/](./analysis): Contains the analysis present in the notebooks but as seperate files.
+* [data/](./data): Contains the generated data used for the project, such as the list of domains, the list of invalid URLs, and the sponsor vocabulary.
+  * *NOTE:* If you want to reproduce the analysis, you will need to download the [YouNiverse](https://github.com/epfl-dlab/YouNiverse) dataset and put it in this folder.
+* [images/](./images): Contains some of the images used on the [data story website](https://go.epfl.ch/ada-yt-sponsorship-project).
+* [processing/](./processing): Contains the preprocessing present in the notebooks but as seperate files.
