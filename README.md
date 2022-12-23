@@ -69,7 +69,7 @@ Using **linear regression** we will see if we can manage to get some insights on
 
 | Name | Contributions |
 |------|---------------|
-| Arnaud | Processing of shortened URLs. Classification of a list of selected domains. Analysis of occurence and popularity of domains. Network analysis on sponsoring domains. Bootstrap and matching analysis on sponsored and "agencied" videos. Worked on the data story writing and the website design. |
+| Arnaud | Processing of shortened URLs. Classification of a list of selected domains. Analysis of occurence and popularity of domains. Network analysis on sponsoring domains. Natural language processing for sponsorship theme detection. Bootstrap and matching analysis on sponsored and "agencied" videos. Worked on the data story writing and the website design. |
 | Ozan | Classification of a list of selected domains. Analysis of weighted occurence and popularity of domains. Time-series analysis of sponsoring domains and categories. Worked on the data story writing and the website design. |
 | Yassine | Classification of a list of selected domains. Time-series analysis of sponsoring domains and categories. Worked on the data story writing. |
 | Antoine | Classification of a list of selected domains. Linear regression analysis for the effect of sponsors on the "popularity" metrics. Worked on the data story writing. |
