@@ -1,5 +1,9 @@
 # This video is sponsored by ADA! An analysis of sponsorships on YouTube
 
+## Website
+
+https://go.epfl.ch/ada-yt-sponsorship-project
+
 ## Abstract 
 
 With the rise of YouTube since 2005, content creators rose to fame with an expanding follower base. Businesses saw this as an opportunity to sponsor their content, exploring marketing potential with creators. Nowadays, sponsorships are a common practice on the platform with many YouTubers making a living off of them.
