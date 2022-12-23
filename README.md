@@ -64,37 +64,15 @@ To estimate the effect of sponsorships on the relative popularity of a content c
 To answer the question about the video types that are more likely to be sponsored, we will use a **classification** approach, such as a **decision tree** or a **random forest**. We will use the **information gain** as a metric to evaluate the quality of the split.
 
 Using **linear regression** we will see if we can manage to get some insights on the effect of sponsorships on the popularity of a given video/channel by using metrics such as **likes per views** or **dislikes per views**.
-
-## Proposed Timeline
-
-| Week | Tasks |
-|------|------|
-| Nov 21 | Continue preprocessing of links and find a way to restraint our investigation on sponsors by selecting videos containing URLs that are frequently used. |
-| Nov 28 | Extract the brands that sponsored videos and categorise them (Video Game, Dating Apps, VPNs, etc.). |
-| Dec 5  | Find the most common sponsorships for each categories of YouTube videos. |
-| Dec 12 | Make a timeseries analysis of the evolution of sponsorships. |
-| Dec 19 | Analyse the impact of sponsorships on videos, content creators and their community and look whether it conducts to build a stronger relation between them or not. |
-| Dec 23 | Finalise analysis, synthesise results and make the website. |
-
-## Organization within the team
-
-| Week | Name | Tasks |
-|------|------|-------|
-| Nov 21 | Arnaud  | Finish the bitly conversion to website links|
-|        | Ozan    | Generate a list of potential sponsor URLs|
-|        | Yassine | Generate a graph of videos URLs|
-|        | Antoine | Bring meaningful visualisation about potential sponsor URLs |
-| Nov 28 | All  | Categorization of the most frequent sponsors|      
-| Dec 5  | Arnaud  | Find which kind of videos are most likely to be sponsored|
-|        | Ozan    | Find what are the most common sponsorships among each video categories|
-|        | Yassine | Look at what type of sponsors are used on each categories|
-|        | Antoine | Visualise the most common sponsorships|
-| Dec 12 | Arnaud  | Apply machine learning methods on whether a video could be sponsored and whether it has a positive or negative impact |
-|        | Ozan    | Apply machine learning methods on whether a video could be sponsored and whether it has a positive or negative impact |
-|        | Yassine | Establish propensity score and make t-tests|
-|        | Antoine | Establish a final conclusion|
-| Dec 19 | All | Synthesise the results and bring them all together in a beautiful website!|
      
+## Contributions
+
+| Name | Contributions |
+|------|---------------|
+| Arnaud | Processing of shortened URLs. Classification of a list of selected domains. Analysis of occurence and popularity of domains. Network analysis on sponsoring domains. Bootstrap and matching analysis on sponsored and "agencied" videos. Worked on the data story writing and the website design. |
+| Ozan | Classification of a list of selected domains. Analysis of weighted occurence and popularity of domains. Time-series analysis of sponsoring domains and categories. Worked on the data story writing and the website design. |
+| Yassine | Classification of a list of selected domains. Time-series analysis of sponsoring domains and categories. Worked on the data story writing. |
+| Antoine | Classification of a list of selected domains. Linear regression analysis for the effect of sponsors on the "popularity" metrics. Worked on the data story writing. |
 
 ### Note concerning the repository organization
 
