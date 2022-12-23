@@ -2,7 +2,7 @@
 
 ## Website
 
-https://arnaudpoletto.github.io/ada-project-website/
+https://go.epfl.ch/ada-yt-sponsorship-project
 
 ## Abstract 
 
