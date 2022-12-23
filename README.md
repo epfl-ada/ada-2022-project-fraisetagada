@@ -77,7 +77,4 @@ Using **linear regression** we will see if we can manage to get some insights on
 ### Note concerning the repository organization
 
 We organized our work in a way that all the analysis can be find together in a single notebook called [milestone2.ipynb](milestone2.ipynb). Should you need to take a closer look at each specific part of the analysis and data handling, you can find notebooks for each part in the [analysis](analysis/) and [processing](processing/) folders.
-
-### Questions for TAs (optional)
-- Any comments or advices will be greatly appreciated! :)
                                                
